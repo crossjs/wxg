@@ -130,6 +130,7 @@ export default class Main {
 
     // 游戏结束停止帧循环
     if (databus.gameOver) {
+      this.music.stopBgm()
       this.gameinfo.renderGameOver(ctx, databus.score)
 
       if (!this.hasEventBind) {

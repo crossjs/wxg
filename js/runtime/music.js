@@ -27,6 +27,10 @@ export default class Music {
     this.bgmAudio.play()
   }
 
+  stopBgm() {
+    this.bgmAudio.pause()
+  }
+
   playShoot() {
     this.shootAudio.currentTime = 0
     this.shootAudio.play()
