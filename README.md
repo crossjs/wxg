@@ -1,6 +1,7 @@
 ## quickstart
 
 ## 源码目录介绍
+
 ```
 ./js
 ├── base                                   // 定义游戏开发基础类
@@ -9,7 +10,7 @@
 │   └── sprite.js                          // 游戏基本元素精灵类
 ├── libs
 │   ├── symbol.js                          // ES6 Symbol简易兼容
-│   └── weapp-adapter.js                   // 小游戏适配器
+│   └── weapp-adapter/                     // 小游戏适配器
 ├── npc
 │   └── enemy.js                           // 敌机类
 ├── player
